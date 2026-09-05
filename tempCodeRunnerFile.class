@@ -1,0 +1,15 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.Arrays;
+
+public class BubbleSort {
+   public BubbleSort() {
+   }
+
+   public static void main(String[] var0) {
+      int[] var1 = new int[]{9, 6, 2, 8, 4, 5, 3, 7};
+
+      for(int var2 = 0; var2 < var1.length - 1; ++var2) {
+         for(int var3 = 0; var3 < var1.length - 1 - var2; ++var3) {
+            if (var1[var3] > var1[var3 + 1]) {
+               int var4 = var1[var3];
+               var1[var3] = var1[var3 + 1];
